@@ -45,7 +45,6 @@ No jogo, apenas possuímos movimentação para quatro direções, mas o Bispo se
    - As saídas deverão ser mostradas de forma clara e organizada, com a direção da peça.
 
 **Nomenclatura:**
-
 printf("Cima\n");
 printf("Baixo\n");
 printf("Esquerda\n");

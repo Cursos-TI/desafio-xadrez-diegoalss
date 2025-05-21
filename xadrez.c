@@ -1,15 +1,18 @@
 #include <stdio.h>
 
 int main() {
+//declarando variaveis
     int torre = 5;
     int bispo = 5;
     int rainha = 8;
 
+//movimento da torre
     printf("\nMovimento da torre:\n");
     for (int i = 0; i < torre; i++) {
         printf("Movimentação para direita\n");
     }
 
+//movimento do bispo
     printf("\nMovimento do bispo:\n");
     int i = 0;
     while (i < bispo) {
@@ -17,6 +20,7 @@ int main() {
         i++;
     }
 
+//movuimento da rainha
     printf("\nMovimento da rainha:\n");
     int I = 0;
     do {
@@ -24,8 +28,27 @@ int main() {
         I++;
     } while (I < rainha);
 
+//declarando variaveis
+    int movimentoBaixo = 2;
+    int movimentoEsquerda = 1;
+
+//movimento do cavalo
+    printf("\nmovimento do cavalo\n");
+    for (i = 1; i < 2; i++) {
+        printf("baixo\n");
+    }
+
+    int j = 0;
+    if (i == movimentoBaixo - i) {    
+    }
+    while (j < movimentoEsquerda) {
+        printf("esquerda\n");
+        j++; 
+    }
+
     return 0;
 }
+
 
     
     
